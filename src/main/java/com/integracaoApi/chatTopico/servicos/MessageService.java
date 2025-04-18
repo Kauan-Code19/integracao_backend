@@ -16,7 +16,6 @@ public class MessageService {
     private final Random random = new Random();
 
     private final Map<String, List<String>> mensagens = Map.of(
-            "alegre", MensagensAlegres.MENSAGENS,
             "triste", MensagensTristes.MENSAGENS,
             "reflexivo", MensagensReflexivas.MENSAGENS
     );
